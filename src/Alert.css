@@ -1,0 +1,34 @@
+.red {
+	display: inline-block;
+    width: 17px;
+	height: 17px;
+	background: #f1344b;
+	border-radius: 50px;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.amber {
+    display: inline-block;
+	width: 17px;
+	height: 17px;
+	background-color: #f7b000;
+	border-radius: 50px;
+    margin-left: 20px;
+}
+
+.green {
+    display: inline-block;
+	width: 17px;
+	height: 17px;
+    background-color: #34d71b;
+	border-radius: 50px;
+    margin-left: 20px;
+}
+
+.textAlert {
+    display: inline-block;
+    margin-left: 10px;
+    text-align: right;
+    vertical-align: top;
+}
