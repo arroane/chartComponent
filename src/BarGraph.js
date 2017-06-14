@@ -51,8 +51,7 @@ class BarGraph extends Component {
 
 
         return (
-            <svg width={width} height={height}  viewBox="0 0 600 600"
-  preserveAspectRatio="xMinYMin meet">
+            <svg width={width} height={height}>
                 {this.props.data.map((d, i) => {
                     const barHeight = yMax - yPoint(d);
                     const barHeight2 = yMax - yPoint2(d);
